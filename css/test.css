@@ -22,3 +22,25 @@ body{
 #div3{
 	border:2px solid black;
 }
+
+[title*="1"]{
+	border:2px solid red;
+	background-color: #0066FF;
+}
+
+
+ul > li{
+	display: inline-block;
+	/* height:24px; */
+	line-height: 24px;
+	width: 24px;
+	font-size: 15px;
+	text-align: center;
+	background-color: rgb(226,129,129);
+	border-radius: 4px;
+	margin: 5px;
+}
+ul:last-child{
+	background-color:#333;
+	color:white;
+}
