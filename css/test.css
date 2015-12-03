@@ -1,4 +1,4 @@
-body{
+/* body{
 
 }
 
@@ -31,7 +31,7 @@ body{
 
 ul > li{
 	display: inline-block;
-	/* height:24px; */
+	height:24px;
 	line-height: 24px;
 	width: 24px;
 	font-size: 15px;
@@ -43,4 +43,8 @@ ul > li{
 ul:last-child{
 	background-color:#333;
 	color:white;
+} */
+
+p{
+	color:red
 }

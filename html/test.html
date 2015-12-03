@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
-</head>
+	<link href="../css/test2.css" rel="stylesheet" type="text/css"/>
 <style>
+@import url("../css/test.css");
 	div#f{
 		margin:0px auto;
 		width: 100px;
@@ -27,18 +28,20 @@
 
 	}
 	p{
-		margin:0;
+		/*margin:0;
 		text-align: center;
 		line-height: 500px;
 		font-size: 80px;
-		text-shadow:1px 1px 1px #CC3300;
+		text-shadow:1px 1px 1px #CC3300;*/
+		
 	}
 	img{
 		position: relative;
-		width:100%;
-		height:100%;
+		float:right;
+		width:20px;
+		height:20px;
 		/* -webkit-filter: blur(5px); */
-		-webkit-box-reflect:below 1px -webkit-linear-gradient(top,rgba(255,255,255,0) 50%,rgba(255,255,255,1));
+		/* -webkit-box-reflect:below 1px -webkit-linear-gradient(top,rgba(255,255,255,0) 50%,rgba(255,255,255,1)); */
 		/* -webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.3)); */
 
 	}
@@ -50,17 +53,46 @@
 		/* transform:rotate(0); */
 		transition:transform 3s ease-in .1s;
 	}
+	div{
+		width:500px;
+		/* overflow:hidden; */
+	}
 </style>
+</head>
 <body>
-	<div id="f"><img src="../img/s1.png" alt="s1"></div>
-	<div style="height:500px"><p>123456</p></div>
-	<hr>
+	<!-- <div id="f"><img src="../img/s1.png" alt="s1"></div> -->
+	<!-- <div style="height:500px"><p>123456</p></div> -->
+	<!-- <hr> -->
+	<p>123456</p>
+	<div><img src="../img/s1.png" alt="s1">1231231231232131232132132132131231231231231231312312312321312321文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕</div>
 </body>
 </html>
 
 <script type="text/javascript">
 	$(function(){
 		//$("img").animate({bottom:"+=500px"},5000);
-		console.log(document.getElementsByTagName('hr').style)	
+		//console.log(document.getElementsByTagName('hr').style);
+		var x;
+		function a(){}
+		a.prototype +={
+			x:1
+		};
+		console.log(a.prototype);	
 	});
+
+/*
+	function Gadget(name,color){
+		this.name=name;
+		this.color=color;
+		this.getName=function(){return this.name;};
+	}
+	Gadget.prototype.price=100;
+	Gadget.prototype.rating=3;
+	var newtoy=new Gadget("webcam","black");
+	for (var prop in newtoy) {
+		if(newtoy.propertyIsEnumerable(prop)===true)
+		{
+			console.log(prop +'='+newtoy[prop]);
+		}
+	};*/
 </script>
