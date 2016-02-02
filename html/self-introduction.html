@@ -1,21 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>self-introduction</title>
-	<link href="../css/self-introduction.css" type="text/css" rel="stylesheet"/>
-</head>
-<body>
-	<div class="container">
-		<section class="left_information"></section>
-		<nav class="top_nav"></nav>
-		<section class="right_information">
-			<section class="right_container"></section>
-		</section>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>self-introduction</title>
+		<link rel="icon" href="../img/favicon.ico" />
+		<link href="../css/self-introduction.css" type="text/css" rel="stylesheet" />
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<script src="../js/self-introduction.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<aside class="left_information">
+				<!--<div style="height:5%;" class="top_space"></div>-->
+				<section class="left_container">
+					<h2>姓名：<span style="color:black;">韩卿</span></h2>
+					<div class="my_img">
+						<img src="../img/empty_me.png" alt="me" />
+					</div>
+					<section class="my_information">
+						<span class="white_span">Phone</span>
+						<p>13738064886</p>
+						<span class="white_span">Email</span>
+						<p>229075284@qq.com</p>
+						<address class="white_span">Address</address>
+						<p>杭州市上城区城南家园5幢</p>
+					</section>
+				</section>
+				<div style="height:10%" class="bottom_space"></div>
+			</aside>
+			<nav class="top_nav">
+				<ul>
+					<li class="active"><a href="#education">my_instroduction</a></li>
+					<li><a href="#skill">working</a></li>
+				</ul>
+			</nav>
+			<section class="right_information">
+				<section class="education" id="education">
+					<h3>教育经历</h3>
+					<section>
+						<h4>浙江大学宁波理工学院<span>2012.9 - 2016.6</span></h4>
+						<h6>软件工程专业</h6>
+						<article>
+							软件工程是一门将理论和知识应用于实践的工程，它借鉴了传统工程的原则和方法，以求高效地开发高质量软件。除了工程，软件工程还综合应用了计算机科学、数学和管理科学。计算机科学和数学用于构造模型与算法，工程科学用于制定规范、分析与设计、评估成本及确定权衡，管理科学用于计划、资源、质量和成本的管理。软件工程这一概念，主要是针对 20 世纪 60 年代 “ 软件危机 ” 而提出的。它首次出现在 1968 年 NATO （北大西洋公约组织）会议上。自这一概念提出以来，围绕软件项目，开展了有关开发模型、方法以及支持工具的研究。其主要成果有：提出了瀑布模型，开发了一些结构化程序设计语言（例如PASCAL
+							语言， Ada 语言）、结构化方法等。并且，围绕项目管理提出了费用估算、文档复审等方法和工具。综观 60 年代末至 80 年代初，其主要特征是，前期着重研究系统实现技术，后期开始强调开发管理和软件质量。 70 年代初，自 “ 软件工厂 ” 这一概念提出以来，主要围绕软件过程以及软件复用，开展了有关软件生产技术和软件生产管理的研究与实践。其主要成果有：提出了应用广泛的面向对象语言以及相关的面向对象方法，大力开展了计算机辅助软件工程（ CASE ）的研究与实践。尤其是近几年来，针对软件复用及软件生产，软件构件技术以及软件质量控制技术、质量保证技术得到了广泛的应用。软件工程所涉及的要素可概括如下：根据这一框架，可以看出：软件工程涉及了软件工程的目标、软件工程原则和软件工程活动。
+							软件工程的主要目标是：生产具有正确性、可用性以及开销合宜的产品。正确性意指软件产品达到预期功能的程度。可用性指软件基本结构、实现及文档为用户可用的程度。开销合宜性是指软件开发、运行的整个开销满足用户要求的程度。这些目标的实现不论在理论上还是在实践中均存在很多问题有待解决，它们形成了对过程、过程模型及工程方法选取的约束。软件工程活动是 “ 开发一个最终满足需求且达到工程目标的软件产品所需要的步骤 ” 。主要包括需求、设计、实现、确认以及支持等活动。需求活动包括问题分析和需求分析。设计活动一般包括概要设计和详细设计。概要设计建立整个软件体系结构，包括子系统、模块以及相关层次的说明、每一模块接口定义。详细设计产生程序员可用的模块说明，包括每一模块中数据结构说明及加工描述。实现活动把设计模型转换为可执行的程序代码。确认活动贯穿于整个开发过程，实现完成后的确认，保证最终产品满足用户的要求。支持活动包括修改和完善。伴随以上活动，还有管理过程、支持过程、培训过程等。
+						</article>
+					</section>
+				</section>
+				<section class="skill" id="skill">
+					<h3>专业技能</h3>
+					<section>
+						<article>
+							来，主要围绕软件过程以及软件复用，开展了有关软件生产技术和软件生产管理的研究与实践。其主要成果有：提出了应用广泛的面向对象语言以及相关的面向对象方法，大力开展了计算机辅助软件工程（ CASE ）的研究与实践。尤其是近几年来，针对软件复用及软件生产，软件构件技术以及软件质量控制技术、质量保证技术得到了广泛的应用。软件工程所涉及的要素可概括如下：根据这一框架，可以看出：软件工程涉及了软件工程的目标、软件工程原则和软件工程活动。 软件工程的主要目标是：生产具有正确性、可用性以及开销合宜的产品。正确性意指软件产品达到预期功能的程度。可用性指软件基本结构、实现及文档为用户可用的程度。开销合宜性是指软件开发、运行的整个开销满足用户要求的程度。这些目标的实现不论在理论上还是在实践中均存在很多问题有待解决，它们形成了对过程、过程模型及工程方法选取的约束。软件工程活动是“ 开发一个最终满足需求且达到工程目标的软件产品所需要的步骤 ” 。主要包括需求、设计、实现、确认以及支持等活动。需求活动包括问题分析和需求分析。设计活动一般包括概要设计和详细设计。概要设计建立整个软件体系结构，包括子系统、模块以及相关层次的说明、每一模块接口定义。详细设计产生程序员可用的模块说明，包括每一模块中数据结构说明及加工描述。实现活动把设计模型转换为可执行的程序代码。确认活动贯穿于整个开发过程，实现完成后的确认，保证最终产品满足用户的要求。支持活动包括修改和完善。伴随以上活动，还有管理过程、支持过程、培训过程等。
+						</article>
+						<section class="software">
+							<h5>开发工具</h5>
+							<ul>
+								<li>Photoshop</li>
+								<li>Sublime</li>
+								<li>Webstorm</li>
+								<li>Hbuild</li>
+								<li>Dreamwaver</li>
+								<li>Atom</li>
+							</ul>
+						</section>
+						<section class="language">
+							<h5>编程语言</h5>
+							<ul>
+								<li>Html</li>
+								<li>Javascript</li>
+								<li>Css</li>
+								<li>Nodejs</li>
+								<li>C#</li>
+								<li>Java</li>
+								<li>Php</li>
+							</ul>
+						</section>
+					</section>
+				</section>
+			</section>
 	</div>
-</body>
+	</body>
+
 </html>
 
 <script type="text/javascript">
-	
 </script>
